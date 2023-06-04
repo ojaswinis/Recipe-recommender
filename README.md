@@ -8,38 +8,45 @@ Integration with a MongoDB database to store and retrieve recipe data.
 Installation
 Clone the repository:
 
-bash
-Copy code
+```
 git clone <repository-url>
+```
+  
 Install the dependencies for the server:
 
-bash
-Copy code
+```
 cd server
 npm install
+```
+
 Install the dependencies for the client:
 
-bash
-Copy code
+```
 cd client
 npm install
+```
+
 Start the server:
 
-bash
-Copy code
+```
 cd server
 npm start
+```
+
 Start the client:
 
-bash
-Copy code
+```
 cd client
 npm start
+```
+
 Open the application in your browser:
 
 arduino
-Copy code
+```
 http://localhost:4200
+```
+
 Configuration
 MongoDB Configuration: Make sure to update the MongoDB connection URL in the server configuration file (server/config.js) to point to your MongoDB instance.
 Usage
