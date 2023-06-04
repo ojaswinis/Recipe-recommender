@@ -1,0 +1,17 @@
+{
+  "name": "receipe",
+  "version": "1.0.0",
+  "description": "My project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  "mongoose": "^6.0.4",
+  "express": "^4.16.0"
+},
+  "devDependencies": {},
+  "keywords": []
+}

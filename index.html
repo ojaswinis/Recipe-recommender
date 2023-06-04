@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipe Recommender</title>
+</head>
+<body>
+  <h1>Recipe Recommender</h1>
+
+  <form id="ingredientsForm">
+    <label for="ingredients">Enter available ingredients:</label>
+    <input type="text" id="ingredients" name="ingredients" required>
+    <button type="submit">Find Recipe</button>
+  </form>
+
+  <div id="recipeContainer">
+    <h2>Recommended Recipe:</h2>
+    <p id="recipeTitle"></p>
+    <p id="recipeDescription"></p>
+    <p id="recipeIngredients"></p>
+    <p id="recipeInstructions"></p>
+  </div>
+
+  <div id="recipe-output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
